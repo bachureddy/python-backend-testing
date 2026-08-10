@@ -100,7 +100,7 @@ secret_data = get_secret()
 #########################################################
 
 db_config = {
-    "host": "database-1.ckhkeogg21ln.us-east-1.rds.amazonaws.com",
+    "host": "database-1.cvyk62aeu5sk.us-east-1.rds.amazonaws.com",
     "user": secret_data["username"],
     "password": secret_data["password"],
     "database": "dev"
