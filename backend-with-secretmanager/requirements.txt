@@ -4,3 +4,4 @@ mysql-connector-python
 redis
 cryptography
 pymysql
+boto3
