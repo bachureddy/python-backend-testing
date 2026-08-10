@@ -71,7 +71,7 @@ def handle_exception(e):
 
 def get_secret():
 
-    secret_name = "rds!db-ac74596e-50e0-4120-8858-461f7beef0fe"
+    secret_name = "project-rds-secret"
     region_name = "us-east-1"
 
     session = boto3.session.Session()
